@@ -16,11 +16,11 @@ namespace KMD.TerningApp.Kerne
         {
             if (base.Værdi == 6)
             {
-                Console.WriteLine($"Terningtype: {this.GetType()} \nTerningværdi *");
+                Console.WriteLine($"Terningtype: {this.GetType()} \nTerningværdi * \nTid for ryst {base.RysteTid} ");
             }
             else
             {
-                Console.WriteLine($"Terningtype: {this.GetType()} \nTerningværdi {this.Værdi}");
+                Console.WriteLine($"Terningtype: {this.GetType()} \nTerningværdi {this.Værdi} \nTid for ryst {base.RysteTid}");
             }
             
         }

@@ -18,9 +18,8 @@ namespace KMD.TerningApp.ConsoleApp
             {
                 try
                 {
-                    lt.Ryst();
-                    lt.UdskrivTerning();
                     Console.ReadKey();
+                    lt.Ryst();
                 }
                 catch (Exception ex)
                 {
